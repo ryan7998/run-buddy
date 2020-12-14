@@ -7,7 +7,10 @@ body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-  }
+}
+.flex-row {
+    display: flex;
+}
   /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -118,22 +121,23 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
-  }
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
   
-  .primary-border {
+.primary-border {
     border-color: #fce138;
-  }
+}
   
-  .secondary-border {
+.secondary-border {
     border-color: #39a6b2;
-  }
+}
 /* What we do Starts */
 .intro {
-    text-align: center;
+   
 }
 
 .intro p {
@@ -142,12 +146,12 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center
 }
 /* What we do Ends*/
 
 /* What you do Starts*/
 .steps { 
-    text-align: center;
     background: #fce138;
 }
 .steps div {
@@ -176,7 +180,6 @@ section {
 
 /*Trainer Starts*/
 .trainers {
-    text-align: center;
 }
 .trainer {
     width: 900px;
@@ -221,7 +224,6 @@ section {
 
 /* REACH OUT STYLE START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
