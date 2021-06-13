@@ -6,7 +6,7 @@
 :root {
   --primary-color: #fce138;
   --secondary-color: #024e76;
-  --tertiary-color: var(--tertiary-color);
+  --tertiary-color: #39a6b2;
 }
 body {
   /* more on this crazy alphanumerical value in a minute! */
